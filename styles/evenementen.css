@@ -273,3 +273,96 @@ span:nth-child(3) {
         object-fit: cover;
     }
 }
+
+
+/* alle evenementen */
+.evenementen {
+   margin-left: 2.5em;
+}
+
+/* evenementen + zwart hartje */
+.rij-event-hart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    margin-bottom: 1.3em;
+    margin-top: 1em;
+}
+
+/* datum + hartje */
+.data-hart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* titel evenement */
+h3 {
+    margin-top: -0.8em;
+}
+
+.tekst {
+    margin-top: -0.5em;
+    margin-bottom: 1.2em;
+}
+
+/* like button */
+button {
+    border: none; 
+    background-color: transparent;
+}
+
+/* like button bij evenement */
+main svg {
+    fill: transparent;
+    stroke: black;
+    width: 22%;
+    cursor: pointer;
+}
+
+
+.filter svg {
+    fill: rgb(0, 0, 0);
+}
+
+
+main .leeg svg {
+    width: 22%;
+    cursor: pointer;
+}
+
+/* svg na een like */
+.fill svg {
+    fill: var(--accent-color);
+}
+
+
+li {
+    list-style-type: none;
+}
+
+
+/* article evenement */
+article {
+    margin-bottom: 3em;
+}
+
+.datum {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+
+.button-leesmeer {
+    color: var(--primary-lighter-color);
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius);
+    padding: .7em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.button-leesmeer:hover {
+    background-color: var(--primary-lighter-color);
+    color: var(--primary-color);
+}
