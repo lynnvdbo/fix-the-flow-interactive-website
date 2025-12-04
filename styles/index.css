@@ -254,3 +254,100 @@ span:nth-child(3) {
     transform: rotate(-45deg)
     translateY(-7px);
 }
+
+
+h1 {
+    text-align: center;
+    font-size: var(--font-size-heading-m);    
+    margin-bottom: 30px;
+    width: 400px;
+    
+    @media (min-width: 810px) {
+        font-size: var(--font-size-heading-l);
+    }
+}
+
+/* header foto */
+.banner {
+  position: relative;
+  width: 100%;;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: brightness(40%); 
+
+      @media (min-width: 810px) {
+        font-size: 45px;
+        height: auto;
+        max-height: 430px;
+        object-fit: cover;
+    }
+}
+
+.overlay {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--white-color);
+}
+
+.button-wat-is-een-ad {
+    background-color: var(--primary-color);
+    color: var(--primary-lighter-color);
+    border-radius: var(--border-radius);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+    padding-top: 8px; 
+    padding-right: 30px; 
+    padding-bottom: 8px; 
+    padding-left: 30px;    
+
+          @media (min-width: 810px) {
+            padding-top: 10px; 
+            padding-right: 40px; 
+            padding-bottom: 10px; 
+            padding-left: 40px;  
+    }
+}
+
+
+.button-wat-is-een-ad:hover {
+    background-color: var(--primary-lighter-color);
+    color: var(--primary-color);
+}
+
+
+p {
+    margin: 25px 50px 25px 50px; /*top left bottom right*/
+
+          @media (min-width: 810px) {
+             margin: 35px 110px 35px 110px;
+    }
+
+          @media (min-width: 950px) {
+             margin: 40px 180px 40px 180px;
+    }
+
+          @media (min-width: 1100px) {
+             margin: 40px 230px 40px 230px;
+             font-size: var(--font-size-m);
+    }
+
+            @media (min-width: 1350px) {
+             margin: 40px 260px 40px 260px;
+             font-size: var(--font-size-m);
+    }
+
+            @media (min-width: 1500px) {
+             margin-left: 360px;
+             font-size: var(--font-size-m);
+    }
+}
+

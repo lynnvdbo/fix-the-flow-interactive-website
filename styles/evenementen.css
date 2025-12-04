@@ -329,6 +329,7 @@ main .leeg svg {
     cursor: pointer;
 }
 
+
 /* svg na een like */
 .fill svg {
     fill: var(--accent-color);
