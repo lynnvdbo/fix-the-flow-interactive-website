@@ -351,3 +351,471 @@ p {
     }
 }
 
+.doelgroepen a { 
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 45px;
+    margin-right: 45px;
+    padding: 10px 10px 10px 10px; /*top left bottom right*/
+
+              @media (min-width: 810px) {
+                 border-radius: var(--border-radius);
+                 padding: 10px 45px 10px 45px;
+                 margin-left: 0px;
+                 margin-right: 0px;
+    }
+
+ 
+}
+
+.doelgroepen {
+          @media (min-width: 810px) {
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           grid-template-rows: 1fr 1fr;
+           margin-top: 45px;
+           margin-left: 40px;
+           margin-right: 40px;
+           gap: 15px;
+    }
+
+                 @media (min-width: 1500px) {
+                 margin-top: 0px;
+                 margin-left: 355px;
+                 margin-right: 355px;
+                 margin-bottom: 40px;
+                 font-size: var(--font-size-s);
+                 gap: 15px 35px; 
+    }
+}
+
+.button-orienteren-op-een-ad-opleiding {
+    background-color: var(--primary-color);
+    color: var(--primary-lighter-color);
+    border-radius: var(--border-radius);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.button-orienteren-op-een-ad-opleiding:hover {
+      background-color: var(--primary-lighter-color);
+      color: var(--primary-color);
+}
+
+.button-studeren-in-een-ad-opleiding {
+    background-color: var(--primary-color);
+    color: var(--primary-lighter-color);
+    border-radius: var(--border-radius);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+
+.button-studeren-in-een-ad-opleiding:hover {
+    background-color: var(--primary-lighter-color);
+    color: var(--primary-color);
+
+}
+
+.button-werken-met-ad-talent {
+    background-color: var(--primary-color);
+    color: var(--primary-lighter-color);
+    border-radius: var(--border-radius);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+
+          @media (min-width: 810px) {
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           grid-template-rows: 1fr 1fr;
+           grid-column: 2/2;  
+        }
+}
+
+.button-werken-met-ad-talent:hover {
+      background-color: var(--primary-lighter-color);
+      color: var(--primary-color);
+}
+
+.button-ontwikkelen-van-ad-onderwijs {
+    background-color: var(--primary-color);
+    color: var(--primary-lighter-color);
+    border-radius: var(--border-radius);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+          @media (min-width: 810px) {
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           grid-template-rows: 1fr 1fr;
+           grid-column: 2/2;
+           grid-row: 1/2;
+    }
+}
+
+.button-ontwikkelen-van-ad-onderwijs:hover {
+    background-color:var(--primary-lighter-color);
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: var(--font-size-heading-xs);
+    margin: 20px 50px 25px 50px;
+
+      @media (min-width: 810px) {
+        margin-left: 110px;
+    }    
+
+          @media (min-width: 1100px) {
+            margin-left: 260px;          
+    }  
+}
+
+.vergaderen {
+
+      @media (min-width: 1100px) {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 30px;;
+        background-color: color-mix(in srgb, var(--primary-color) 8%, transparent);
+    }  
+}
+
+
+.vergaderen-tekst {
+      @media (min-width: 1100px) {
+        margin-left: 100px;
+        margin-top: 35px;
+
+    } 
+}
+
+.datums li {
+    list-style: none;
+
+      @media (min-width: 810px) {
+        margin-left: 60px;
+    }  
+
+      @media (min-width: 1100px) {
+        margin-left: 210px;
+    }  
+}
+
+
+.datums p {
+    margin-bottom: 0px;
+    font-weight: 700;  
+
+      @media (min-width: 1100px) {
+        margin-left: 260px;
+    }      
+}
+
+.data {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.vergaderen-img {
+  width: 100%;
+
+      @media (min-width: 810px) {
+        font-size: 45px;
+        height: auto;
+        max-height: 430px;
+        object-fit: cover;
+    }
+}
+
+.locatie {
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+
+              @media (min-width: 810px) {
+                 margin-left: 110px;
+                 margin-right: 230px;
+    } 
+
+          @media (min-width: 1100px) {
+           margin-left: 260px;
+           margin-right: 90px;
+    } 
+}
+
+
+.locatie p {
+    font-weight: 100;
+}
+
+.locatie a {
+    color: var(--black-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.locatie a:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+/* nieuws artikelen */
+.laatste-nieuws {
+    margin: 0 30px;
+    display: grid;
+    gap: 20px;
+
+
+          @media (min-width: 810px) {
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           gap: 30px;
+           margin-bottom: 40px;
+    }     
+    
+    @media (min-width: 1149px) {
+        margin: 0 250px 60px 250px;
+
+
+    }   
+}
+
+
+.laatste-nieuws-kop {
+    font-size: var(--font-size-heading-xs);
+    text-align: center;
+    margin-top: 40px;
+
+
+             @media (min-width: 1149px) {
+                margin-right: 240px;
+    }
+}
+
+
+.sub-logo-rechts {
+        display: block;
+        margin-left: auto;
+        margin-right: 20px;
+        margin-bottom: 8px;
+}
+
+
+.nieuws {
+    display: grid;
+    gap: 10px;
+}
+
+
+
+article {
+    border: 6px solid var(--primary-color);
+    display: grid;
+    border-radius: 25px;
+}
+
+article p {
+    display: inline-block;
+    text-align: left;
+    text-align: center;
+    margin-bottom: 50px;
+
+          @media (min-width: 810px) {
+            display: block;
+            margin: 50px; 
+    }   
+
+          @media (min-width: 1149px) {
+            display: block;
+            text-align: center;  
+    }    
+}
+
+.button-leesmeer {
+    color: var(--primary-lighter-color);
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius);
+    padding: var(--button-size);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    position: relative;
+    top: -25px;
+    justify-self: center;
+
+              @media (min-width: 810x) {
+                margin-left: 99px;      
+    } 
+
+          @media (min-width: 1149x) {
+    }     
+
+} 
+
+
+.button-leesmeer:hover {
+    background-color: var(--primary-lighter-color);
+    color: var(--primary-color);
+}   
+
+/* Deelnemende hogescholen */
+.section-titel {
+    text-align: center;
+
+            @media (min-width: 1149px) {
+                margin-right: 190px;
+    }
+}
+
+.logo-slider {
+    overflow: hidden;
+}
+
+.overlfow {
+    display: flex;
+    overflow: hidden;
+}
+
+.logo-item img {
+    filter: grayscale(1);
+    opacity: 0.70;
+}
+
+.logos-wrapper {
+    display: flex;
+    padding-bottom: 35px;
+    align-items: center;
+    justify-content:  space-around;
+    animation: logoLoop 40s linear infinite;
+}
+
+
+.logo-item {
+    margin-left: 50px;
+}
+
+.logo-item:hover {
+    scale: 1.1;
+}
+
+@keyframes logoLoop {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* footer */
+.footer-info {
+    background-color: var(--primary-color);
+    font-size: var(--font-size-m);
+    color: var(--white-color);
+}
+
+.footer-info img {
+    margin: 18px 0 5px 13px;
+
+     @media (min-width: 810px) {
+            margin: 18px 0 0 15px;
+    }
+
+    @media (min-width: 1149px) {
+            margin-left: 26.1rem;
+    }
+}
+
+.footer-info li {
+    list-style: none;
+}
+
+
+/* details in footer */
+.kopjes-menu {
+    @media (min-width: 810px) {
+        display:flex;
+        gap:0em;
+        justify-content: space-between;
+
+        max-width:50em;
+        
+        /* margin-left:auto; */
+        /* margin-right:auto; */
+        margin-inline: auto;
+    } 
+}
+
+details {
+  background-color: var(--primary-color);
+}
+
+
+/* summary */
+summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    font-size: var(--font-size-m);
+    cursor: pointer;
+
+    @media (min-width: 810px) {
+        cursor: default;
+        font-weight: var(--font-weight-heading);
+    } 
+}
+
+summary::after { 
+    content: '';
+    border: solid var(--white-color);
+    border-width: 0 3px 3px 0;
+    padding: 4px;
+    transition: 0.3s;
+    rotate:45deg;
+
+    @media (min-width: 810px) {
+        display: none;
+    } 
+}
+
+details[open] > summary::after {
+  rotate:-135deg;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* de wrapper om wat af en toe zichtbaar is of niet */
+details::details-content {
+    @media (width > 810px) {
+        /* op groyter scherm altijd zichtbaar */
+        content-visibility: visible;
+    }
+}
+
+
+details ul {
+    padding:0 0 0 1.25rem;
+    margin:0 0 1rem;
+}
+
+details a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: var(--font-size-s);
+}
+
+details a:hover {
+    color: var(--primary-lighter-color);
+}
