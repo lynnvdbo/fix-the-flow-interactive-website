@@ -367,3 +367,109 @@ article {
     background-color: var(--primary-lighter-color);
     color: var(--primary-color);
 }
+
+/* footer */
+.footer-info {
+    background-color: var(--primary-color);
+    font-size: var(--font-size-m);
+    color: var(--white-color);
+}
+
+.footer-info img {
+    margin: 18px 0 5px 13px;
+
+     @media (min-width: 810px) {
+            margin: 18px 0 0 14px;
+    }
+
+    @media (min-width: 1149px) {
+            margin-left: 26.1rem;
+    }
+}
+
+.footer-info li {
+    list-style: none;
+}
+
+
+/* details in footer */
+.kopjes-menu {
+    @media (min-width: 810px) {
+        display:flex;
+        gap:0em;
+        justify-content: space-between;
+
+        max-width:50em;
+        
+        /* margin-left:auto; */
+        /* margin-right:auto; */
+        margin-inline: auto;
+    } 
+}
+
+details {
+  background-color: var(--primary-color);
+}
+
+
+/* summary */
+summary {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    font-size: var(--font-size-m);
+
+    cursor: pointer;
+
+    @media (min-width: 810px) {
+        cursor: default;
+        font-weight: var(--font-weight-heading);
+    } 
+}
+
+summary::after { 
+    content: '';
+    border: solid var(--white-color);
+    border-width: 0 3px 3px 0;
+    padding: 4px;
+    transition: 0.3s;
+    rotate:45deg;
+
+    @media (min-width: 810px) {
+        display: none;
+    } 
+}
+
+details[open] > summary::after {
+  rotate:-135deg;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* de wrapper om wat af en toe zichtbaar is of niet */
+details::details-content {
+    @media (width > 810px) {
+        /* op groyter scherm altijd zichtbaar */
+        content-visibility: visible;
+    }
+}
+
+
+details ul {
+    padding:0 0 0 1.25rem;
+    margin:0 0 1rem;
+}
+
+details a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: var(--font-size-s);
+}
+
+details a:hover {
+    color: var(--primary-lighter-color);
+}
