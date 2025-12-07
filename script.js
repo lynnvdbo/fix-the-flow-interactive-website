@@ -3,7 +3,7 @@
 
 
 /* STAP 1: zoek de button op - document.querySelector() */
-// let likeButton = document.querySelectorAll(".leeg");
+// let likeButton = document.querySelector(".leeg");
 
 
 /* STAP 2: als iemand er op clickt - addEventListener() */
