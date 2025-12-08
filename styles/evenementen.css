@@ -71,6 +71,7 @@ body {
 .logo img {
     display: none;
     width: 200px;
+    margin-left: 1em;
 
     @media (min-width: 810px) {
                 width: 270px;
