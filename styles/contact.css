@@ -350,11 +350,11 @@ h1 {
     margin: 18px 0 5px 13px;
 
      @media (min-width: 810px) {
-            margin: 18px 0 0 14px;
+            margin: 20px 0 0 50px;
     }
 
-    @media (min-width: 1149px) {
-            margin-left: 26.1rem;
+    @media (min-width: 1100px) {
+            margin-left: 28rem;
     }
 }
 
@@ -376,10 +376,19 @@ h1 {
         /* margin-right:auto; */
         margin-inline: auto;
     } 
+
+    @media (min-width: 1100px) {
+        max-width:50em;
+    } 
 }
 
 details {
   background-color: var(--primary-color);
+
+  @media (min-width: 810px) {
+        margin-left: 2em;
+        margin-right: 2em;
+    } 
 }
 
 
