@@ -293,6 +293,20 @@ h1 {
     }
 }
 
+main p {
+    margin: -1.4em 0 2em 3em;
+    
+    @media (min-width: 810px) {
+        font-size: 0.8em;
+        margin-left: 3.2em;
+    }
+
+    @media (min-width: 1300px) {
+        margin-left: 268px;
+        font-size: var(--font-size-heading-xxs);
+    }
+}
+
 p span {
     color: red;
 }
