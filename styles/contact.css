@@ -2,8 +2,13 @@ body {
     margin: 0;
     padding: 0;
     font-size: var(--font-size-s);
-    line-height: var(--line-height-text);
+    line-height: var(--line-height-text);   
+
+    @media (min-width: 810px) {
+        font-size: 1.2em;
+    }
 }
+
 
 /* eerste header */
 .main-nav {
@@ -286,9 +291,13 @@ h1 {
     font-size: var(--font-size-heading-xs);
     padding: 1rem 0rem 1rem 3rem; 
 
+    @media (min-width: 810px) {
+        font-size: 1.4em;
+    }
+
     @media (min-width: 1300px) {
         margin-left: 220px;
-        font-size: var(--font-size-heading-s);
+        font-size: var(--font-size-heading-m);
         padding-bottom: 1em;
     }
 }
@@ -303,7 +312,8 @@ main p {
 
     @media (min-width: 1300px) {
         margin-left: 268px;
-        font-size: var(--font-size-heading-xxs);
+        font-size: 1em;
+        margin-top: -2.4em;
     }
 }
 
@@ -314,6 +324,10 @@ p span {
 /* alle labels formulier */
 .label-ad {
     padding: 0rem 3rem 1.8rem 3rem; 
+
+    @media (min-width: 1300px) {
+        font-size: 1.2em;
+    }
 }
 
 .contact-formulier {
