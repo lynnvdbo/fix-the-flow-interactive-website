@@ -289,7 +289,12 @@ h1 {
     @media (min-width: 1300px) {
         margin-left: 220px;
         font-size: var(--font-size-heading-s);
+        padding-bottom: 1em;
     }
+}
+
+p span {
+    color: red;
 }
 
 /* alle labels formulier */
@@ -307,7 +312,7 @@ h1 {
 
     @media (min-width: 1300px) {
        font-size: var(--font-size-m);
-       margin: 0 220px;
+        margin: 0 220px;
     }
 }
 
