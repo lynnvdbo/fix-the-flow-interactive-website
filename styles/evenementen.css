@@ -330,16 +330,16 @@ main .leeg svg {
     cursor: pointer;
 }
 
-
-/* svg na een like */
-.fill svg {
+main .leeg svg:hover {
     fill: var(--accent-color);
     stroke: var(--accent-color);
 }
 
 
-li {
-    list-style-type: none;
+/* svg na een like */
+.fill svg {
+    fill: var(--accent-color);
+    stroke: var(--accent-color);
 }
 
 
