@@ -6,6 +6,11 @@ body {
     line-height: var(--line-height-text);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* eerste header */
 .main-nav {
@@ -278,31 +283,97 @@ span:nth-child(3) {
 
 /* alle evenementen */
 .evenementen {
-   margin-left: 2.5em;
-}
-
-/* evenementen + zwart hartje */
-.rij-event-hart {
-    display: grid;
-    grid-template-columns: 1fr 1fr;    
-    margin-bottom: 1.3em;
-    margin-top: 1em;
-}
-
-/* datum + hartje */
-.data-hart {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
 }
 
-/* titel evenement */
-h3 {
-    margin-top: -0.8em;
+article img {
+     @media (min-width: 810px) {
+        width: 100%;       
+    }
+}
+
+h2 {
+    margin-left: 1.5rem; 
+
+    @media (min-width: 810px) {
+        margin-left: 1.9rem; 
+        font-size: 1.8em;
+    }
+
+    @media (min-width: 1149px) {
+        margin-left: 1.9rem; 
+        font-size: 1.8em;
+    }
+}
+
+.favorieten {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: var(--black-color);
+    margin-left: 5em;
+
+    @media (min-width: 810px) {
+        margin-left: 18em;
+        font-size: 1em;
+    }
+
+     @media (min-width: 1149px) {
+        margin-left: 43rem; 
+        font-size: 1.2em;
+    }
+}
+
+.favorieten:hover {
+    color: var(--accent-color);
+
+}
+
+.alle-evenementen {
+     @media (min-width: 810px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    @media (min-width: 1149px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+.leesmeer-like-button {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr ;
+}
+
+article {
+    position: relative;
+    box-shadow: 0 4px 40px rgba(0,0,0, 0.15);
+    padding: 1.2em;
+    margin: 1em;
+    border-radius: 1em;
 }
 
 .tekst {
-    margin-top: -0.5em;
-    margin-bottom: 1.2em;
+    margin-bottom: 1em;
+}
+
+
+/* titel evenement */
+h3 {
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+}   
+
+.tekst {
+    max-width: 91%;
 }
 
 /* like button */
@@ -315,7 +386,7 @@ button {
 main svg {
     fill: transparent;
     stroke: black;
-    width: 22%;
+    width: 15%;
     cursor: pointer;
 }
 
@@ -326,8 +397,13 @@ main svg {
 
 
 main .leeg svg {
-    width: 22%;
+    width: 18%;
     cursor: pointer;
+
+    @media (min-width: 810px) {
+        width: 14%;
+        display: grid;
+    }
 }
 
 main .leeg svg:hover {
@@ -345,14 +421,14 @@ main .leeg svg:hover {
 
 /* article evenement */
 article {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 .datum {
     color: var(--primary-color);
     font-weight: 700;
+    margin-top: 0.4em;
 }
-
 
 .button-leesmeer {
     color: var(--primary-lighter-color);
@@ -363,12 +439,27 @@ article {
     letter-spacing: 2px;
     text-decoration: none;
     font-size: 0.8em;
+    margin-right: 1em;
+
+     @media (min-width: 1149px) {
+        padding: 1em;
+    }
 }
+
 
 .button-leesmeer:hover {
     background-color: var(--primary-lighter-color);
     color: var(--primary-color);
 }
+ 
+.paginas {
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 2em;
+}
+
+
+
 
 /* footer */
 .footer-info {
