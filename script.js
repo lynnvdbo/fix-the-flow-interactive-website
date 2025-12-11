@@ -26,14 +26,14 @@
 
 
 /* selecteerd alle buttons met de class .leeg */
-let likeButtons = document.querySelectorAll(".leeg");
+let likeButtons = document.querySelectorAll(".hart-leeg");
 
 /* hij loopt door alle buttons heen */
 likeButtons.forEach(function(button){
     /* als iemand op een van de like buttons clickt gebeurt er een function */
     button.addEventListener("click", function(){
         /* function is togglen met voor alle classes met fill*/
-        button.classList.toggle("fill")
+        button.classList.toggle("hart-fill")
     })
 })
 

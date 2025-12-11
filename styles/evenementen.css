@@ -404,7 +404,7 @@ main svg {
 }
 
 
-main .leeg svg {
+main .hart-leeg svg {
     width: 18%;
     cursor: pointer;
 
@@ -416,7 +416,7 @@ main .leeg svg {
 
 
 /* svg na een like */
-.fill svg {
+.hart-fill svg {
     fill: var(--accent-color);
     stroke: var(--accent-color);
 
