@@ -6,6 +6,12 @@ body {
     line-height: var(--line-height-text);
 }
 
+header {
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all .3s;
+}
 
 /* eerste header */
 .main-nav {
@@ -15,6 +21,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
 }
 
 
@@ -255,6 +262,15 @@ span:nth-child(3) {
     transform: rotate(-45deg)
     translateY(-7px);
 }
+
+
+
+
+
+
+
+
+
 
 
 h1 {

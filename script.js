@@ -21,12 +21,6 @@
 
 
 
-
-
-
-
-
-
 /* deze zorgt evrvoor dat je alles buttons kan liken en ze blijven geliked */
 
 
@@ -42,6 +36,34 @@ likeButtons.forEach(function(button){
         button.classList.toggle("fill")
     })
 })
+
+
+
+
+
+
+// header verdwijnt wanneer je naar beneden scrollt en komt weer tevoorschijn als je omhoog scrollt
+// van youtube filmpje -> https://www.youtube.com/watch?v=rk_MSrE6uhc
+
+// STAP 1: zoek de header op - document.querySelector() 
+let header = document.querySelector('header');  
+
+let prevScroll = window.pageYOffset;
+
+// STAP 2: addEventListener 
+window.addEventListener('scroll', function(){
+    let currScroll = window.pageYOffset;
+
+    if(prevScroll > currScroll){
+        header.style.top = '0';
+    }else{
+        header.style.top = '-150px';
+    }
+    prevScroll = currScroll;
+})
+
+
+
 
 
 
