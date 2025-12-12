@@ -301,7 +301,7 @@ span:nth-child(3) {
 
 article img {
     width: 100%;
-    
+
      @media (min-width: 810px) {
         width: 100%;       
     }
@@ -324,22 +324,33 @@ h2 {
 .favorieten {
     font-size: 0.9em;
     text-decoration: none;
-    color: var(--black-color);
+    color: var(--white-color);
+    letter-spacing: 0.1em;
+    font-weight: 30;
     margin-left: 5em;
+    background-color: var(--primary-color);
+    padding: 0.5em;
 
     @media (min-width: 810px) {
-        margin-left: 18em;
+        margin-left: 17em;
         font-size: 1em;
+        padding: 0.5em;
     }
 
      @media (min-width: 1149px) {
-        margin-left: 43rem; 
-        font-size: 1.2em;
+        margin-left: 44rem; 
+        font-size: 1.1em;
+        padding: 0.5em;
+        position: relative;
     }
 }
 
+.favorieten a {
+    left: 2em;
+}
+
 .favorieten:hover {
-    color: var(--accent-color);
+    text-decoration:underline;
 
 }
 
