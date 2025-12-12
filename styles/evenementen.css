@@ -300,6 +300,8 @@ span:nth-child(3) {
 }
 
 article img {
+    width: 100%;
+    
      @media (min-width: 810px) {
         width: 100%;       
     }
