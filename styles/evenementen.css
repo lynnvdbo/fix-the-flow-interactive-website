@@ -226,11 +226,11 @@ header {
 
 .menu-toggle:checked ~ .burger-menu {
     display: flex;
-    top: 10%;
+    top: 100%;
 
 
             @media (min-width: 810px) {
-            top: 13%
+            top: 100%
     }
 }
 
