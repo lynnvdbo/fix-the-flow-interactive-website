@@ -21,7 +21,7 @@
 
 
 
-/* deze zorgt evrvoor dat je alles buttons kan liken en ze blijven geliked */
+/* deze zorgt evrvoor dat je alles buttons kan liken en ze blijven geliked geholpen door suus */
 
 
 
@@ -64,9 +64,3 @@ window.addEventListener('scroll', function(){
 
 
 
-
-
-
-
-
- 
