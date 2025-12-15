@@ -499,6 +499,37 @@ article {
     margin-bottom: 2em;
 }
 
+.alle-paginas {
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 2em;
+}
+
+.nummers {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    color:var(--black-color);
+    list-style-type: none;
+}
+
+.nummers a {
+    text-decoration: none;
+    color:var(--black-color);
+}
+
+.nummers a:hover {
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+.nummers .pagina-1 {
+    color: var(--accent-color);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px; 
+}
 
 /* footer */
 .footer-info {
