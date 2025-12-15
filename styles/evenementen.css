@@ -145,6 +145,11 @@ header {
 }
 
 
+.burger-menu .kopje-evenementen {
+    color: var(--accent-color);
+}
+
+
 .burger-menu a:hover {
     color: var(--accent-color);
     text-decoration: underline;
@@ -200,6 +205,8 @@ header {
         transform: translateY(0p);    
     }
 }
+
+
 
 .menu-toggle {
     display: none;

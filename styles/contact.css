@@ -140,6 +140,10 @@ header {
     color: var(--black-color);
 }
 
+.burger-menu .kopje-contact {
+    color: var(--accent-color);
+}
+
 
 .burger-menu a:hover {
     color: var(--accent-color);
