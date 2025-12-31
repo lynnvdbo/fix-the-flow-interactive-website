@@ -22,7 +22,7 @@ Ik heb de like button zo ontworpen dat als je er op drukt dat het hartje een bou
 
 https://github.com/user-attachments/assets/8374dfeb-9344-4c26-8beb-db655d2b5f15
 
-Linkje naar de website: [https://lynnvdbo.github.io/all-human-accessible-website/](https://lynnvdbo.github.io/fix-the-flow-interactive-website/evenementen.html)
+Linkje naar de website: https://lynnvdbo.github.io/fix-the-flow-interactive-website/evenementen.html
 
 
 ## Kenmerken
