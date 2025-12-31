@@ -328,6 +328,7 @@ main p {
     }
 }
 
+/* kleur van het eerste '*' */
 p span {
     color: red;
 }
@@ -342,7 +343,6 @@ p span {
 }
 
 .contact-formulier {
-
     @media (min-width: 810px) {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -356,7 +356,6 @@ p span {
 }
 
 .beschrijving {
-
     .textarea {
         resize: none;
     }
@@ -377,7 +376,6 @@ p span {
         margin-top: 0.5rem;
     }  
 }
-
 
 .verzend-knop {
     justify-self: start;

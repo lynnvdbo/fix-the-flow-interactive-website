@@ -206,8 +206,6 @@ header {
     }
 }
 
-
-
 .menu-toggle {
     display: none;
 }
@@ -314,6 +312,7 @@ article img {
     }
 }
 
+/* evenementen */
 h2 {
     margin-left: 1.5rem; 
 
@@ -492,7 +491,8 @@ article {
     background-color: var(--primary-lighter-color);
     color: var(--primary-color);
 }
- 
+
+ /* paginas nummers <1234> */
 .paginas {
     text-align: center;
     font-size: 0.9em;
@@ -563,7 +563,6 @@ article {
         justify-content: space-between;
 
         max-width:50em;
-        
         /* margin-left:auto; */
         /* margin-right:auto; */
         margin-inline: auto;
