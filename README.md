@@ -22,8 +22,7 @@ Ik heb de like button zo ontworpen dat als je er op drukt dat het hartje een bou
 
 https://github.com/user-attachments/assets/8374dfeb-9344-4c26-8beb-db655d2b5f15
 
-Linkje naar de website: https://lynnvdbo.github.io/fix-the-flow-interactive-website/evenementen.html
-
+Klik [hier](https://lynnvdbo.github.io/fix-the-flow-interactive-website/evenementen.html) voor de website.
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
