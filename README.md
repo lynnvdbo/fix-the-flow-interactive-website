@@ -14,11 +14,11 @@ Ad Connect ook wel het Overlegplatform Associate degrees is opgericht in 2019 en
 
 ## Ontwerp
 
-Hier zie je twee voorbeelden van een artikel met daarbij de like button. Bij de linker artikel zie je een hartje wat een zwarte rand heeft en het rechter artikel heeft een gekleurd hartje. Dit wordt het harje als je een evenement een like hebt gegeven.
+Hier zie je twee voorbeelden van een artikel met daarbij de like button. Bij de linker artikel zie je een hartje wat een zwart andje heeft. Niet te dik dat het heel erg opvalt maar dik genoeg zodat de gebruiker weet dat het er is. Het rechter artikel heeft een gekleurd hartje. Dit wordt het harje als je een evenement een like hebt gegeven en de kleur die wordt aangegeven is de accentkleur.
 
 <img width="810" height="587" alt="Scherm­afbeelding 2025-12-31 om 13 40 21" src="https://github.com/user-attachments/assets/0fbe8398-4bcc-4159-9f40-f7637aece2af" />
 
-Ik heb de like button zo ontworpen dat als je er op drukt dat het hartje een bounce geeft, wat duidelijkheid geeft voor de gebruiker dat hij/zij op het hartje heeft geklikt. Het is ook mogelijk om meerder evenementen te liken en je kan ze ook altijd weer unliken.
+Ik heb de like button zo ontworpen dat als je er op drukt dat het hartje een bounce geeft, wat duidelijkheid geeft voor de gebruiker dat hij/zij op het hartje heeft geklikt. Het is ook mogelijk om meerdere evenementen te liken en je kan ze ook altijd weer unliken.
 
 https://github.com/user-attachments/assets/8374dfeb-9344-4c26-8beb-db655d2b5f15
 
